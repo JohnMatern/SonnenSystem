@@ -177,16 +177,6 @@ scene.add(mars);
 mars.position.setX(5);
 mars.position.setZ(45);
 
-//Load our first 3D Object in GLTF Format
-/* const loader = new GLTFLoader();
-const watchUrl = './assets/watch/scene.gltf';
-loader.load( url, (gltf) => {
-  const watch = gltf.scene;
-  scene.add(watch);
-
-}  
-); */
-
 var r = 12; // Radius to middle of earth
 var r2 = 14;
 var theta = 0;
