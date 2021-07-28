@@ -1,8 +1,6 @@
-import './style.css'
+//import './style.css'
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-
-
 const scene = new THREE.Scene();
 //Camera(field ov view, aspect Ratio(user window size), view frustrum(viewsize used from camera lens))
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -74,7 +72,7 @@ sun.position.set(120,0,-500);
 
 //Sun Pointlight
 const sunLight = new THREE.PointLight(0xffb0ab,2);
-sunLight.position.set(60,20,-500);
+sunLight.position.set(120,20,-500);
 scene.add(sunLight);
 
 //Mercury
